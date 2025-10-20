@@ -26,3 +26,14 @@ a, .welcome-text p {
 a {
     text-decoration: none;
 }
+
+.sign-up {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    text-align: center;
+    border: none;
+    padding: 5px 20px;
+    font-size: 14px;
+    margin: 5px;
+    border-radius: 8px;
+}
