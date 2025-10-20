@@ -20,6 +20,11 @@ body {
     padding-right: 10px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
@@ -67,5 +72,42 @@ a {
     font-size: 14px;
     margin-top: 5px;
     margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.pattern-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pattern-container h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.patterns {
+    display: flex;
+    color: #1F2937;
+    justify-content: center;
+    margin: 32px;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+
+.single-pattern {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 200px;
+}
+
+.single-pattern img {
+    border: 2px solid;
+    border-color: #3882F6;
     border-radius: 8px;
 }
