@@ -10,4 +10,19 @@ body {
 
 .header-container {
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.welcome-text h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+a, .welcome-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
 }
