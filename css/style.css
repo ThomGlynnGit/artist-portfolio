@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 .header-container {
@@ -15,7 +16,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .header-nav {
@@ -27,6 +29,11 @@ body {
 
 .welcome-container {
     display: flex;
+    padding: 80px 0px;
+}
+
+.welcome-text {
+    padding-right: 20px;
 }
 
 .welcome-text h1{
@@ -41,6 +48,7 @@ a, .welcome-text p {
 
 a {
     text-decoration: none;
+    padding: 10px;
 }
 
 .sign-up {
