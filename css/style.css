@@ -11,6 +11,22 @@ body {
 .header-container {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+}
+
+.welcome-container {
+    display: flex;
 }
 
 .welcome-text h1{
