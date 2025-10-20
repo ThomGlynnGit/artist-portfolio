@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     font-family: Roboto, Helvetica, sans-serif;
     margin: 0px;
+    flex: 1;
 }
 
 .header-container {
@@ -171,4 +172,11 @@ a {
 .sign-box .sign-up {
     border: 1px #E5E7EB solid;
     margin: 0;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
 }
