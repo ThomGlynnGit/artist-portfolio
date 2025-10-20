@@ -86,6 +86,7 @@ a {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    
 }
 
 .patterns {
@@ -110,4 +111,28 @@ a {
     border: 2px solid;
     border-color: #3882F6;
     border-radius: 8px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300px;
+}
+
+.quote-content .quote-attribution {
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: 700;
 }
